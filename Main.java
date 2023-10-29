@@ -11,14 +11,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Create an object of Student, Teacher, and College class
-        System.out.printf("Please enter student name:%n ");
+        System.out.printf("Please enter student name!%n ");
         String studentName = scanner.nextLine();
 
-        System.out.printf("Please enter student ID:%n ");
+        System.out.printf("Please enter student ID!%n ");
         int studentId = scanner.nextInt();
         scanner.nextLine();
 
-        System.out.printf("Please enter number of grades: %n");
+        System.out.printf("Please enter number of grades! %n");
         int Grades = scanner.nextInt();
         scanner.nextLine();
 
